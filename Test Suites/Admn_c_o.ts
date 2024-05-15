@@ -3,7 +3,7 @@
    <description></description>
    <name>Admn_c_o</name>
    <tag></tag>
-   <delayBetweenInstances>0</delayBetweenInstances>
+   <delayBetweenInstances>2</delayBetweenInstances>
    <executionMode>PARALLEL</executionMode>
    <maxConcurrentInstances>8</maxConcurrentInstances>
    <testSuiteRunConfigurations>
@@ -12,7 +12,7 @@
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
             <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Edge Chromium</runConfigurationId>
+            <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Admin configuration</testSuiteEntity>

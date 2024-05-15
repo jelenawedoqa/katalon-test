@@ -15,6 +15,12 @@
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Email Configuration&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -23,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>bdc8f79b-51a0-44c5-b5fa-e76079dd309c</webElementGuid>
+      <webElementGuid>8d5f258c-5a97-4231-9f91-00a2eea8eac6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>oxd-text oxd-text--p orangehrm-main-title</value>
-      <webElementGuid>e42be411-5616-4d3b-8c72-064b86f71088</webElementGuid>
+      <webElementGuid>9b39fa8f-0626-452e-9e9d-46172646b430</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Email Configuration</value>
-      <webElementGuid>bd41ba00-815f-44c4-a829-2867b4cc04f6</webElementGuid>
+      <webElementGuid>97aaf9d2-fbed-4cfc-a17e-b9e76374eff7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]/div[@class=&quot;orangehrm-background-container&quot;]/div[@class=&quot;orangehrm-card-container&quot;]/p[@class=&quot;oxd-text oxd-text--p orangehrm-main-title&quot;]</value>
-      <webElementGuid>8dd13c25-2de3-48ca-9624-77e84c54ad48</webElementGuid>
+      <webElementGuid>e427cd50-52ca-4702-8eb7-071f62af9c4d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,23 +61,23 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div[2]/div[2]/div/div/p</value>
-      <webElementGuid>4c352628-1512-41a4-87d3-d352fff4d23c</webElementGuid>
+      <webElementGuid>dc445e40-9142-4c9b-8221-e75b5b1bd40f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='More'])[1]/following::p[1]</value>
-      <webElementGuid>531f1c3d-7660-4f3b-a596-dcd80a74dd96</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Configuration'])[1]/following::p[1]</value>
+      <webElementGuid>f79bb229-bb43-4e82-bea8-0fab225d7aed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Organization'])[1]/following::p[1]</value>
-      <webElementGuid>849023a2-1dca-4e94-8f34-7d7f0ecf4dfa</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Qualifications'])[1]/following::p[1]</value>
+      <webElementGuid>05cb6edc-589b-4013-9391-0d64d28daf98</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Mail Sent As'])[1]/preceding::p[1]</value>
-      <webElementGuid>7eac7ff2-e93c-433c-b307-cb0ba8ae1069</webElementGuid>
+      <webElementGuid>0d151647-eae2-4bcd-b075-9e25f90f8046</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sending Method'])[1]/preceding::p[1]</value>
-      <webElementGuid>736c602d-8440-4dd8-85b5-2e680ac99d2d</webElementGuid>
+      <webElementGuid>eaeea658-e707-4758-ad16-4d4f26d2d8ab</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Email Configuration']/parent::*</value>
-      <webElementGuid>f6abcbf0-3c21-4d91-a70d-72caa3858289</webElementGuid>
+      <webElementGuid>254c9be0-2da5-4138-8c90-2dcfec90f6ea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +109,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/p</value>
-      <webElementGuid>81180540-0df8-41f9-81b4-6055fbad067e</webElementGuid>
+      <webElementGuid>cbf6b5ba-9391-4337-b85c-f85ed095237d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,6 +117,22 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//p[(text() = 'Email Configuration' or . = 'Email Configuration')]</value>
-      <webElementGuid>359eca8c-33f8-41ab-abb8-85568a0242ff</webElementGuid>
+      <webElementGuid>b870fd33-79fd-499f-b918-95da27785522</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='More'])[1]/following::p[1]</value>
+      <webElementGuid>8dae1c7a-8a69-4b27-b26b-9d1d921befe4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Organization'])[1]/following::p[1]</value>
+      <webElementGuid>acca1ee7-c853-41d7-9204-a636c23ef6b8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

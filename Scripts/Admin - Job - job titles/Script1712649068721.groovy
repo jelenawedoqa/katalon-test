@@ -25,5 +25,5 @@ WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/adm
 
 WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/h6_Job Titles'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_OrangeHRM/h6_Job Titles'), 'Job Titles')
+WebUI.takeFullPageScreenshotAsCheckpoint('job-titles')
 

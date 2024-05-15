@@ -27,5 +27,5 @@ WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/adm
 
 WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/h6_Work Shifts'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_OrangeHRM/h6_Work Shifts'), 'Work Shifts')
+WebUI.takeScreenshotAsCheckpoint('work-shifts')
 

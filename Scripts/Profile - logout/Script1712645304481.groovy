@@ -27,5 +27,3 @@ WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/h5_Login'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_OrangeHRM/h5_Login'), 'Login')
 
-WebUI.closeBrowser()
-

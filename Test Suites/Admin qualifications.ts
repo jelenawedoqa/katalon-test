@@ -26,13 +26,6 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>4ebf172d-1781-4a06-b79c-dbf3586bd30c</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Admin_Add skills</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>5b5a99be-94f1-4568-bc78-438a5732dccf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

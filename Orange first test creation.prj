@@ -6,12 +6,12 @@
    <UUID>4ac027fa-fd85-4444-ba35-fb4c53f10cac</UUID>
    <createdEdition>FREE</createdEdition>
    <createdVersion>9.4.0</createdVersion>
-   <freeLicense>true</freeLicense>
+   <freeLicense>false</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
-   <modifiedEdition>FREE</modifiedEdition>
+   <modifiedEdition>ENTERPRISE</modifiedEdition>
    <modifiedVersion>9.4.0</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>C:\Users\jelen\Katalon Studio\Orange first test creation\Orange first test creation.prj</projectFileLocation>
+   <projectFileLocation>C:\Users\jelen\git\katalon-test-enterprize\katalon-test\Orange first test creation.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

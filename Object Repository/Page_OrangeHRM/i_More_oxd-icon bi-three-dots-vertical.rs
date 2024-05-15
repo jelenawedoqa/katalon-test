@@ -7,14 +7,20 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>i.oxd-icon.bi-three-dots-vertical</value>
+         <value>button.oxd-icon-button > i.oxd-icon.bi-caret-down-fill</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='app']/div/div/header/div[2]/nav/ul/li[4]/span/i</value>
+         <value>//div[@id='app']/div/div[2]/div[2]/div/div/div/div[2]/div[3]/button/i</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -23,15 +29,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>i</value>
-      <webElementGuid>43f8d5b2-42b4-47eb-8420-76b6705cdb75</webElementGuid>
+      <webElementGuid>63df76cc-7743-4774-bab7-6ea6a6c0c3d7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>oxd-icon bi-three-dots-vertical</value>
-      <webElementGuid>d7776f8e-b16f-49dd-9991-5ed771c99cf6</webElementGuid>
+      <value>oxd-icon bi-caret-down-fill</value>
+      <webElementGuid>9029e60f-1615-4360-97eb-af2b8537be61</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,23 +45,39 @@
       <name>with-container</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>f3945210-b016-4dc9-8d11-30486a47661d</webElementGuid>
+      <webElementGuid>72aed13c-a35a-4235-8bf3-e519d43c7955</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-navigation&quot;]/header[@class=&quot;oxd-topbar&quot;]/div[@class=&quot;oxd-topbar-body&quot;]/nav[@class=&quot;oxd-topbar-body-nav&quot;]/ul[1]/li[@class=&quot;oxd-topbar-body-nav-tab&quot;]/span[@class=&quot;oxd-topbar-body-nav-tab-item&quot;]/i[@class=&quot;oxd-icon bi-three-dots-vertical&quot;]</value>
-      <webElementGuid>80584b93-d4e5-40d6-8853-47304e7ff61e</webElementGuid>
+      <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]/div[@class=&quot;orangehrm-background-container&quot;]/div[@class=&quot;oxd-table-filter&quot;]/div[@class=&quot;oxd-table-filter-header&quot;]/div[@class=&quot;oxd-table-filter-header-options&quot;]/div[@class=&quot;--toggle&quot;]/button[@class=&quot;oxd-icon-button&quot;]/i[@class=&quot;oxd-icon bi-caret-down-fill&quot;]</value>
+      <webElementGuid>964e5474-e675-47c9-afc2-283e4daddbfd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
+      <value>//div[@id='app']/div/div[2]/div[2]/div/div/div/div[2]/div[3]/button/i</value>
+      <webElementGuid>16ee40dd-7054-4751-9a11-f69348c1c7bd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/button/i</value>
+      <webElementGuid>ef332b17-e9f5-4f38-bb02-e6cc397c0360</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
       <value>//div[@id='app']/div/div/header/div[2]/nav/ul/li[4]/span/i</value>
-      <webElementGuid>521996b5-968d-4393-9522-f91908053d55</webElementGuid>
+      <webElementGuid>b4595c7d-7f0e-4824-a204-cd860650d067</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,6 +85,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[4]/span/i</value>
-      <webElementGuid>f3c7a694-6cea-49b4-a168-29f8e4db0a21</webElementGuid>
+      <webElementGuid>4386471c-e364-4394-87e1-89c52524ed3a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

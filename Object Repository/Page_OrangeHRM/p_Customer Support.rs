@@ -15,6 +15,11 @@
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+      </entry>
+   </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -23,7 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>86bbc794-2785-4c5b-a226-12d8a51f9a8f</webElementGuid>
+      <webElementGuid>407e95a4-0aef-4de1-be0b-9df9a266e9fa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +36,7 @@
       <name>class</name>
       <type>Main</type>
       <value>oxd-text oxd-text--p orangehrm-sub-title</value>
-      <webElementGuid>8a2b77ad-6890-427e-a837-92ce93810893</webElementGuid>
+      <webElementGuid>d052821e-f45f-451f-8d27-7e7439766b95</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +44,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Customer Support</value>
-      <webElementGuid>cc2fdae3-0730-4012-a1f0-73f258a10ff7</webElementGuid>
+      <webElementGuid>602ae1fa-6478-4bbc-a1a2-56ea42f2190f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +52,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]/div[@class=&quot;orangehrm-background-container&quot;]/div[@class=&quot;orangehrm-card-container&quot;]/div[@class=&quot;orangehrm-support&quot;]/div[@class=&quot;oxd-grid-2 orangehrm-support-channel --mail&quot;]/div[@class=&quot;oxd-grid-item oxd-grid-item--gutters&quot;]/p[@class=&quot;oxd-text oxd-text--p orangehrm-sub-title&quot;]</value>
-      <webElementGuid>070a45eb-18c6-4678-aac4-e7481d470ac7</webElementGuid>
+      <webElementGuid>3e1bf49f-a0f4-4653-a10b-03b48b5278e6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +60,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div[2]/div[2]/div/div/div/div/div[2]/p</value>
-      <webElementGuid>1649df28-7e98-4589-81a1-bfb08e947ecd</webElementGuid>
+      <webElementGuid>28f44b0f-5095-4340-87eb-0bad2cd7668a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +68,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ossupport@orangehrm.com'])[1]/preceding::p[1]</value>
-      <webElementGuid>e6fcc3b1-0e37-4938-8192-cdd140d0d12a</webElementGuid>
+      <webElementGuid>cf2d2ef6-b209-49cd-acf1-a5266732f958</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +76,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='OrangeHRM, Inc'])[1]/preceding::p[3]</value>
-      <webElementGuid>3e92d274-887a-407f-8b67-e063d5709cdd</webElementGuid>
+      <webElementGuid>eb58214c-961a-4427-90fb-40ab53d24dab</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +84,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Customer Support']/parent::*</value>
-      <webElementGuid>7582c5f2-1cc7-4ebb-a415-daf3fe2491e0</webElementGuid>
+      <webElementGuid>22a0df81-3d5d-4c19-9f7e-32553df2e692</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +92,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/p</value>
-      <webElementGuid>0370758e-8fab-4372-b4ca-358b9f89dd44</webElementGuid>
+      <webElementGuid>d46ab24e-0dc6-49ff-bb39-05de44183997</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,6 +100,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//p[(text() = 'Customer Support' or . = 'Customer Support')]</value>
-      <webElementGuid>72b0cdff-786a-4143-b172-c9e6e3002034</webElementGuid>
+      <webElementGuid>fa0895e2-db30-4604-b58e-7f0f823962ba</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

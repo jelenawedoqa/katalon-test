@@ -25,5 +25,6 @@ WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/hel
 
 WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/p_Customer Support'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_OrangeHRM/p_Customer Support'), 'Customer Support')
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_OrangeHRM/div_Getting Started with OrangeHRMLearning _7c4cce'), 
+    30)
 

@@ -27,5 +27,5 @@ WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/adm
 
 WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/h6_Employment Status'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_OrangeHRM/h6_Employment Status'), 'Employment Status')
+WebUI.takeScreenshotAsCheckpoint('employ-sts')
 

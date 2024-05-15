@@ -15,6 +15,11 @@
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+      </entry>
+   </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -23,7 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>7e98f472-5753-42d4-89be-908c176172dd</webElementGuid>
+      <webElementGuid>eccda38a-6f84-45db-8686-f219d20df4af</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +36,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/web/index.php/help/support</value>
-      <webElementGuid>ed430c3f-749a-475c-b767-a31afcfad3a6</webElementGuid>
+      <webElementGuid>289550bb-503d-413e-9fdf-f1eb278d3f39</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +44,7 @@
       <name>role</name>
       <type>Main</type>
       <value>menuitem</value>
-      <webElementGuid>6ae1b028-f711-4f08-8747-d932f2209de5</webElementGuid>
+      <webElementGuid>462bf4a1-fe42-4316-9f14-882e4e965d67</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +52,7 @@
       <name>class</name>
       <type>Main</type>
       <value>oxd-userdropdown-link</value>
-      <webElementGuid>a7202660-a692-4c5a-b88c-840f807bafa1</webElementGuid>
+      <webElementGuid>46e360f1-a42c-4ae0-8734-2c4a2874cc56</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,7 +60,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Support</value>
-      <webElementGuid>f2c2a651-d366-4de3-b34d-a99d1cb6e99b</webElementGuid>
+      <webElementGuid>6e06989b-9337-403e-b43b-448a4fedf02d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +68,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-navigation&quot;]/header[@class=&quot;oxd-topbar&quot;]/div[@class=&quot;oxd-topbar-header&quot;]/div[@class=&quot;oxd-topbar-header-userarea&quot;]/ul[1]/li[@class=&quot;--active oxd-userdropdown&quot;]/ul[@class=&quot;oxd-dropdown-menu&quot;]/li[2]/a[@class=&quot;oxd-userdropdown-link&quot;]</value>
-      <webElementGuid>5f8bc05a-8345-4501-9532-da164228fc6e</webElementGuid>
+      <webElementGuid>1193a60c-8034-4389-abf6-d38fdd3947de</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,7 +76,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div/header/div/div[2]/ul/li/ul/li[2]/a</value>
-      <webElementGuid>6fc7b11c-5e62-495b-9031-bd44188b0fe7</webElementGuid>
+      <webElementGuid>f6c51cfa-770b-4a85-84c8-21492b5055ef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +84,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Support')]</value>
-      <webElementGuid>899a1b0e-4505-4432-bf54-654a7aa4073e</webElementGuid>
+      <webElementGuid>f65a138e-11be-4a85-afd5-8127e0203326</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +92,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Change Password'])[1]/preceding::a[1]</value>
-      <webElementGuid>2604cf0e-6fa7-45f0-9690-d0c08fbe6d00</webElementGuid>
+      <webElementGuid>f6d2d4ac-0293-42a2-bb28-f5d5dfb36d6a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +100,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[1]/preceding::a[2]</value>
-      <webElementGuid>1a6501b1-7f49-4166-a6a9-0c99a44d2fa3</webElementGuid>
+      <webElementGuid>2afa30ec-45c4-4dfd-b2b0-90200f64c455</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +108,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Support']/parent::*</value>
-      <webElementGuid>a0f3a543-6743-4108-b019-c380d9d8a8ba</webElementGuid>
+      <webElementGuid>2cd4cad9-44e9-445f-8a10-3938b34bb079</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +116,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/web/index.php/help/support')]</value>
-      <webElementGuid>55d80bc7-2c7a-43d4-8bae-b1009ee807f3</webElementGuid>
+      <webElementGuid>e1488c51-f87b-46a2-9405-46c607d5c2ad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +124,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li/ul/li[2]/a</value>
-      <webElementGuid>15a180d5-ab42-4b45-b98c-1c32ba9f4c87</webElementGuid>
+      <webElementGuid>9d7e8f1f-fd6a-4c5a-9065-c013be68bbd6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,6 +132,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/web/index.php/help/support' and (text() = 'Support' or . = 'Support')]</value>
-      <webElementGuid>eec185c6-3fa2-45f6-b5e4-ea7c243dc64c</webElementGuid>
+      <webElementGuid>d43817a1-f4bf-4377-b66e-16e39578339f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

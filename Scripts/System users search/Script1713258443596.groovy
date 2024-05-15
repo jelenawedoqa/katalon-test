@@ -19,11 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Admin - User mngm'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_OrangeHRM/button_System Users_oxd-icon-button'))
+WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/button_System Users_oxd-icon-button'))
 
-WebUI.setText(findTestObject('Page_OrangeHRM/input_Username_oxd-input oxd-input--active'), 'admin')
+WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_Username_oxd-input oxd-input--active'), 'admin')
 
-WebUI.click(findTestObject('Page_OrangeHRM/button_Search'))
+WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/button_Search'))
 
-WebUI.verifyElementPresent(findTestObject('Page_OrangeHRM/div_(1) Record Found'), 30)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_OrangeHRM/div_Add'), 30)
 

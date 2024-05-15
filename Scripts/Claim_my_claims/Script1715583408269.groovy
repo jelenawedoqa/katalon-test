@@ -17,18 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Admin - qualifications - skills'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Claim'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Test_manual/Page_OrangeHRM/button_Add'))
+WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/li_My Claims'))
 
-WebUI.setText(findTestObject('Page_OrangeHRM/input_Name_oxd-input oxd-input--active'), 'Name test 123')
+WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewClaim')
 
-WebUI.setText(findTestObject('Test_manual/Page_OrangeHRM/textarea_Job Description_oxd-textarea oxd-textarea--focus oxd-textarea--resize-vertical'), 
-    'Add some description')
-
-WebUI.click(findTestObject('Test_manual/Page_OrangeHRM/button_Save'))
-
-WebUI.verifyElementInViewport(findTestObject('Test_manual/Page_OrangeHRM/div_SuccessSuccessfully Saved'), 0)
-
-WebUI.verifyElementPresent(findTestObject('Page_OrangeHRM/span_(23) Records Found'), 30)
+WebUI.verifyElementText(findTestObject('Object Repository/Page_OrangeHRM/div_My Claims'), 'My Claims')
 

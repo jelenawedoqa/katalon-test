@@ -6,15 +6,21 @@
    <elementGuidId>0320bad2-caf9-4731-8f3f-956cb63ff2c5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='app']/div/div/header/div[2]/nav/ul/li[4]/ul/div[4]/li</value>
+         <key>CSS</key>
+         <value>li.oxd-topbar-body-nav-tab.--parent</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>div:nth-of-type(4) > li</value>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div/header/div[2]/nav/ul/li</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>li >> internal:has-text=&quot;Configuration&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -23,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>dcf000df-e481-4c52-b925-ef00f8bf3697</webElementGuid>
+      <webElementGuid>5b0150c8-d9b5-4f2c-b39d-c3596fd758d0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,55 +37,47 @@
       <name>text</name>
       <type>Main</type>
       <value>Configuration </value>
-      <webElementGuid>7feb7b5e-edc6-4a94-b789-0aa86d72a654</webElementGuid>
+      <webElementGuid>859c8b3f-b39d-41c7-bf14-968a94f1d95f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-navigation&quot;]/header[@class=&quot;oxd-topbar&quot;]/div[@class=&quot;oxd-topbar-body&quot;]/nav[@class=&quot;oxd-topbar-body-nav&quot;]/ul[1]/li[@class=&quot;--active oxd-topbar-body-nav-tab&quot;]/ul[@class=&quot;oxd-dropdown-menu&quot;]/div[4]/li[1]</value>
-      <webElementGuid>a639108c-1da3-448c-96af-0a551a70fccf</webElementGuid>
+      <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-navigation&quot;]/header[@class=&quot;oxd-topbar&quot;]/div[@class=&quot;oxd-topbar-body&quot;]/nav[@class=&quot;oxd-topbar-body-nav&quot;]/ul[1]/li[@class=&quot;oxd-topbar-body-nav-tab --parent&quot;]</value>
+      <webElementGuid>12f900e6-20fb-4c90-b7fa-105645aa00a8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>oxd-topbar-body-nav-tab --parent</value>
+      <webElementGuid>3ca9a952-ce51-4481-b006-38e878f19699</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/div/div/header/div[2]/nav/ul/li[4]/ul/div[4]/li</value>
-      <webElementGuid>1d528781-bc79-4a3a-9335-086740ff0e7a</webElementGuid>
+      <value>//div[@id='app']/div/div/header/div[2]/nav/ul/li</value>
+      <webElementGuid>a4e201c1-3a17-4c00-8ec5-6a66feab4515</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='More'])[1]/following::li[4]</value>
-      <webElementGuid>57e0b9aa-c0ed-47fb-9083-430a41b8df46</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Organization'])[1]/following::li[5]</value>
-      <webElementGuid>10bcdd4a-7131-4ab7-a1e0-9e345a9653e6</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Username'])[1]/preceding::li[1]</value>
-      <webElementGuid>2ab0aa23-90ec-4bad-b92d-4639fecc60e0</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='More'])[1]/preceding::li[3]</value>
+      <webElementGuid>bed504ba-2d1c-44c4-b068-36a927a538df</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[4]/li</value>
-      <webElementGuid>313db7df-3edf-4d99-975d-93ec23255690</webElementGuid>
+      <value>//nav/ul/li</value>
+      <webElementGuid>b4f7d847-2035-4779-b22e-1890417dcafb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,6 +85,46 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//li[(text() = 'Configuration ' or . = 'Configuration ')]</value>
-      <webElementGuid>d8e109dc-c6e8-4d87-a16b-58655396284b</webElementGuid>
+      <webElementGuid>b7679072-bcb9-4e7c-a2cf-87acad6f465d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div/header/div[2]/nav/ul/li[4]/ul/div[4]/li</value>
+      <webElementGuid>b3a5f305-574c-4d8a-a243-f67124d73fc8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='More'])[1]/following::li[4]</value>
+      <webElementGuid>73764b05-c81d-4c9d-bba6-89ad70bfdd6e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Organization'])[1]/following::li[5]</value>
+      <webElementGuid>74091ad2-d4ec-4359-8d2f-c1a8abf7a358</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Username'])[1]/preceding::li[1]</value>
+      <webElementGuid>6402b918-e005-4efd-9da6-ac94a6ae2a67</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/li</value>
+      <webElementGuid>9e7d8939-ca8b-454f-ba5c-96142e685ded</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

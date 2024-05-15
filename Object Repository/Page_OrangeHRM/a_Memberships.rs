@@ -6,15 +6,21 @@
    <elementGuidId>fbf33f32-7419-4718-9774-26f95bafa24c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>ul.oxd-topbar-body-nav-tab-accordian > li:nth-of-type(5) > a</value>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div[2]/div[2]/div/div/div/div/div[2]/div[10]/a</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='app']/div/div/header/div[2]/nav/ul/li[4]/ul/div/ul/li[5]/a</value>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Memberships&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -23,15 +29,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>c52d0049-ac71-499e-b810-7d0060d94162</webElementGuid>
+      <webElementGuid>dd0a26d2-d2f3-4344-be0f-714427209bad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>#</value>
-      <webElementGuid>39714f8a-56ad-4432-98d9-fb10b9eb9650</webElementGuid>
+      <value>/web/index.php/pim/viewMemberships/empNumber/7</value>
+      <webElementGuid>b6217801-456d-4556-a47a-199ad4c91c89</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,23 +45,31 @@
       <name>text</name>
       <type>Main</type>
       <value>Memberships</value>
-      <webElementGuid>01e2f2f3-f16a-4363-ac30-e73fd33318a2</webElementGuid>
+      <webElementGuid>cd7c9a6a-3b5f-4c8b-b24c-b85a43239443</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-navigation&quot;]/header[@class=&quot;oxd-topbar&quot;]/div[@class=&quot;oxd-topbar-body&quot;]/nav[@class=&quot;oxd-topbar-body-nav&quot;]/ul[1]/li[@class=&quot;--active oxd-topbar-body-nav-tab&quot;]/ul[@class=&quot;oxd-dropdown-menu&quot;]/div[1]/ul[@class=&quot;oxd-topbar-body-nav-tab-accordian&quot;]/li[5]/a[1]</value>
-      <webElementGuid>57574081-f52a-4d32-b978-e51b256a9d23</webElementGuid>
+      <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]/div[@class=&quot;orangehrm-background-container&quot;]/div[@class=&quot;orangehrm-card-container&quot;]/div[@class=&quot;orangehrm-edit-employee&quot;]/div[@class=&quot;orangehrm-edit-employee-navigation&quot;]/div[@class=&quot;orangehrm-tabs&quot;]/div[@class=&quot;orangehrm-tabs-wrapper&quot;]/a[@class=&quot;orangehrm-tabs-item&quot;]</value>
+      <webElementGuid>c835244b-33f6-46e8-a8cf-c64f58c6d878</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>orangehrm-tabs-item</value>
+      <webElementGuid>4df2eda5-4afd-43b0-9518-7cb3237cfda4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/div/div/header/div[2]/nav/ul/li[4]/ul/div/ul/li[5]/a</value>
-      <webElementGuid>ccbcd36c-d805-4a5b-a6e0-e59fc1fcf252</webElementGuid>
+      <value>//div[@id='app']/div/div[2]/div[2]/div/div/div/div/div[2]/div[10]/a</value>
+      <webElementGuid>c56f7698-e269-445c-8432-5eeb511488a3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +77,71 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Memberships')]</value>
-      <webElementGuid>5816af81-ca31-43d6-ae9b-089dfcab8099</webElementGuid>
+      <webElementGuid>407d3b02-a69f-4a78-ad9c-96bdd23aa130</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Qualifications'])[1]/following::a[1]</value>
+      <webElementGuid>bc112b15-aafa-44fa-af5d-5d8b9e1b6d5e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Report-to'])[1]/following::a[2]</value>
+      <webElementGuid>ccd7e3ad-c26b-4b5a-b189-1333ed49cae1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Employee Full Name'])[1]/preceding::a[1]</value>
+      <webElementGuid>16fb094d-8fbd-46bd-accd-c82a975c5457</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Memberships']/parent::*</value>
+      <webElementGuid>d851ddd2-1740-4d21-8b0d-f309555fd492</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/web/index.php/pim/viewMemberships/empNumber/7')]</value>
+      <webElementGuid>500d71cb-417c-474f-808e-705de7377d43</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[10]/a</value>
+      <webElementGuid>262f915b-61ac-4636-8438-26f549e0a60e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/web/index.php/pim/viewMemberships/empNumber/7' and (text() = 'Memberships' or . = 'Memberships')]</value>
+      <webElementGuid>2104b401-353b-4216-b886-46af010974df</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div/header/div[2]/nav/ul/li[4]/ul/div/ul/li[5]/a</value>
+      <webElementGuid>ccbcd36c-d805-4a5b-a6e0-e59fc1fcf252</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -88,14 +166,6 @@
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Username'])[1]/preceding::a[4]</value>
       <webElementGuid>cfc5ae9d-19da-4592-9b6f-50f34d15d594</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Memberships']/parent::*</value>
-      <webElementGuid>2da87c5d-7661-4c27-8679-50fc2f2ef467</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

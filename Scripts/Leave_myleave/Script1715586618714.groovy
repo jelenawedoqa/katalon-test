@@ -17,7 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Leave'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Test_manual/Page_OrangeHRM/Page_OrangeHRM/i_Dashboard_oxd-icon bi-caret-down-fill oxd-userdropdown-icon'))
+WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/li_My Leave'))
+
+WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewMyLeaveList')
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_OrangeHRM/div_My Leave List'), 'My Leave List')
 

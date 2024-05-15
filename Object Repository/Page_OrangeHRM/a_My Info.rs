@@ -6,15 +6,19 @@
    <elementGuidId>40398a63-ccc9-40e7-a9f2-065d18297ae8</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='app']/div/div/aside/nav/div[2]/ul/li[6]/a</value>
       </entry>
-      <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+      </entry>
+   </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -23,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>6f7b6ab3-df13-42da-b598-cb6ed79620e3</webElementGuid>
+      <webElementGuid>2cda2f94-5599-4628-a36b-1575c16d74ef</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +35,7 @@
       <name>class</name>
       <type>Main</type>
       <value>oxd-main-menu-item</value>
-      <webElementGuid>5ef3cf5d-a026-4f3b-a357-6e47bdf0fde2</webElementGuid>
+      <webElementGuid>06972711-64c7-46f4-9c71-5e9add591e62</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +43,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/web/index.php/pim/viewMyDetails</value>
-      <webElementGuid>cbbbce22-4911-44c3-ba6f-6a26eec863af</webElementGuid>
+      <webElementGuid>1df6dae4-e6ea-4100-a21a-31baba5da7c5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +51,7 @@
       <name>text</name>
       <type>Main</type>
       <value>My Info</value>
-      <webElementGuid>79957a2c-610f-4fc1-b06b-2e78127522e5</webElementGuid>
+      <webElementGuid>85d610fa-bd26-4a51-9055-1063b5e6dbf4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +59,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-navigation&quot;]/aside[@class=&quot;oxd-sidepanel&quot;]/nav[@class=&quot;oxd-navbar-nav&quot;]/div[@class=&quot;oxd-sidepanel-body&quot;]/ul[@class=&quot;oxd-main-menu&quot;]/li[@class=&quot;oxd-main-menu-item-wrapper&quot;]/a[@class=&quot;oxd-main-menu-item&quot;]</value>
-      <webElementGuid>d297168c-a9cc-418b-bddd-577a687f7611</webElementGuid>
+      <webElementGuid>27a1745f-0f13-4201-a872-e4348ba8d026</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,7 +67,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div/aside/nav/div[2]/ul/li[6]/a</value>
-      <webElementGuid>0a466013-ff53-4c4b-8ef0-71acda07629e</webElementGuid>
+      <webElementGuid>e31abb52-66c1-4f6f-892c-db62655b8a1d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +75,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/web/index.php/pim/viewMyDetails')]</value>
-      <webElementGuid>69aeb142-0b7a-4843-a897-39ac21f0d7ea</webElementGuid>
+      <webElementGuid>48a85bea-462a-435c-a26e-5d0b5107d938</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +83,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[6]/a</value>
-      <webElementGuid>541710b2-84e8-4370-8ea0-b5cb340cd2f4</webElementGuid>
+      <webElementGuid>503ec3b4-27a4-4e72-a5f4-2fe6cabfb7d7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,6 +91,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/web/index.php/pim/viewMyDetails' and (text() = 'My Info' or . = 'My Info')]</value>
-      <webElementGuid>c683f975-c0fd-4a11-9a94-66c0d8948c7a</webElementGuid>
+      <webElementGuid>fb3311ce-f71d-42eb-9988-f1fdb3422025</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

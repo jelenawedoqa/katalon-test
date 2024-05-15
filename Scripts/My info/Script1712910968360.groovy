@@ -23,5 +23,6 @@ WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/a_My Info'))
 
 WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_OrangeHRM/h6_PIM'), 'PIM')
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_OrangeHRM/div_Personal DetailsEmployee Full NameEmplo_5be68c'), 
+    30)
 

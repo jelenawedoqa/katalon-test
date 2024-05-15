@@ -15,6 +15,12 @@
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;×&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -23,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>c4487296-3468-461b-99ec-c1d02a9c8cd2</webElementGuid>
+      <webElementGuid>3efaa2be-42ae-49de-85b8-35c7cf524bc3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>oxd-dialog-close-button oxd-dialog-close-button-position</value>
-      <webElementGuid>ad2bfb9f-67f9-4f5f-aa3e-e1b9f47a3409</webElementGuid>
+      <webElementGuid>e41c60bc-d2f9-40bf-a16a-2f7f3262e7aa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>×</value>
-      <webElementGuid>7fe58ba0-af25-4f37-a26a-5fc91a07a778</webElementGuid>
+      <webElementGuid>e7ebf6b4-a568-461c-902c-38bcbcea0609</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;oxd-overlay oxd-overlay--flex oxd-overlay--flex-centered&quot;]/div[@class=&quot;oxd-dialog-container-default&quot;]/div[@class=&quot;oxd-dialog-container-default--inner&quot;]/div[@class=&quot;oxd-sheet oxd-sheet--rounded oxd-sheet--white oxd-dialog-sheet oxd-dialog-sheet--shadow oxd-dialog-sheet--gutters&quot;]/button[@class=&quot;oxd-dialog-close-button oxd-dialog-close-button-position&quot;]</value>
-      <webElementGuid>025558c2-c9a2-4c79-8db3-62dca5ed5c85</webElementGuid>
+      <webElementGuid>cd922327-953c-4d2b-9c31-ed3d5c0ce527</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div[2]/div/div/div/button</value>
-      <webElementGuid>f4b3a832-70a4-4712-8b15-c7c6fe1cd415</webElementGuid>
+      <webElementGuid>75b4faed-30f3-43cd-81a9-10721e30f7b6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='OrangeHRM, Inc'])[1]/following::button[1]</value>
-      <webElementGuid>8e0e7724-03ee-4312-aa87-f18f1f2bbfa4</webElementGuid>
+      <webElementGuid>b2e44c9e-1db0-4f17-a815-618a0c3dce04</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='×']/parent::*</value>
-      <webElementGuid>401453cd-f297-4e11-bd6e-357ee3a429c8</webElementGuid>
+      <webElementGuid>2413db96-8fc1-4196-9bd9-eacc5a2703a4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +85,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/button</value>
-      <webElementGuid>563cb346-7457-494f-97a1-e9b9ab19700f</webElementGuid>
+      <webElementGuid>a8919853-a18e-4a52-b437-1fad9a7d54aa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,6 +93,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = '×' or . = '×')]</value>
-      <webElementGuid>906285a1-96d6-4547-bf9e-1c6ee795fa14</webElementGuid>
+      <webElementGuid>929ff594-64e2-4c03-8d69-e0bc45cca86b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -19,17 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Sidebar - admin'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/li_More'))
+WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/li_Configuration'))
+WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/span_Configuration'))
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/li_Email Configuration'))
+WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/a_Email Configuration'))
 
 WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/admin/listMailConfiguration')
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/p_Email Configuration'))
-
 WebUI.verifyElementText(findTestObject('Object Repository/Page_OrangeHRM/p_Email Configuration'), 'Email Configuration')
-
-WebUI.closeBrowser()
 

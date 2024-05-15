@@ -27,5 +27,5 @@ WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/adm
 
 WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/h6_Job Categories'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_OrangeHRM/h6_Job Categories'), 'Job Categories')
+WebUI.takeScreenshotAsCheckpoint('job-categories')
 

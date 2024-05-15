@@ -15,6 +15,11 @@
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+      </entry>
+   </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -23,7 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>98a41c2c-9da1-47e1-bf10-fbec84f544e6</webElementGuid>
+      <webElementGuid>a6978695-f631-4093-8b1f-669441165e49</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +36,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Email Configuration</value>
-      <webElementGuid>dfd9f302-5efe-4c52-a4f3-f230e2017291</webElementGuid>
+      <webElementGuid>b849f191-1863-46e0-8ce7-626c8a2bb2aa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +44,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-navigation&quot;]/header[@class=&quot;oxd-topbar&quot;]/div[@class=&quot;oxd-topbar-body&quot;]/nav[@class=&quot;oxd-topbar-body-nav&quot;]/ul[1]/li[@class=&quot;--active oxd-topbar-body-nav-tab&quot;]/ul[@class=&quot;oxd-dropdown-menu&quot;]/div[4]/ul[@class=&quot;oxd-topbar-body-nav-tab-accordian&quot;]/li[1]</value>
-      <webElementGuid>a933371b-9600-472d-812d-0d86ab8b401c</webElementGuid>
+      <webElementGuid>5f58fca9-5fe8-4e65-9f1e-b435fcf0cfe5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -47,7 +52,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div/header/div[2]/nav/ul/li[4]/ul/div[4]/ul/li</value>
-      <webElementGuid>8f3ff630-d510-4d76-a2bc-1c7d7a3a45a4</webElementGuid>
+      <webElementGuid>ccaa311d-28e6-452a-be03-a6b82e935c0c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -55,7 +60,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='More'])[1]/following::li[5]</value>
-      <webElementGuid>57b0429f-541b-4219-8f47-f4c6ea497abe</webElementGuid>
+      <webElementGuid>45eb010c-b1b4-48bd-8a1b-d77279a057cc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +68,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Organization'])[1]/following::li[6]</value>
-      <webElementGuid>6dd14eb4-349a-4501-a3a5-75beb522f599</webElementGuid>
+      <webElementGuid>d1d09ace-6ba7-4b9c-8096-6fb05438750e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +76,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Username'])[1]/preceding::li[8]</value>
-      <webElementGuid>ae9a9c0d-af11-41e2-b1dc-2d6ae1084273</webElementGuid>
+      <webElementGuid>a60b69bb-79ae-48aa-b494-b901d74b7a18</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +84,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/ul/li</value>
-      <webElementGuid>3978a447-d17a-4d6a-8c54-bb85d87aa582</webElementGuid>
+      <webElementGuid>7b18ad97-c14c-4757-b511-e09dfe262ecf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,6 +92,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//li[(text() = 'Email Configuration' or . = 'Email Configuration')]</value>
-      <webElementGuid>dbce3a42-77ca-460e-83be-3c2f1c362d7c</webElementGuid>
+      <webElementGuid>58c1c969-710d-4f09-a3a7-7ab000205db6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

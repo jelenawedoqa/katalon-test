@@ -15,6 +15,11 @@
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+      </entry>
+   </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -23,7 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>2e0497a4-0881-43b2-90de-cc5d70321f24</webElementGuid>
+      <webElementGuid>5a933bdd-9e52-4c67-9147-023750f3bf96</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +36,7 @@
       <name>class</name>
       <type>Main</type>
       <value>oxd-icon-button</value>
-      <webElementGuid>fd16ae5a-c21a-4a56-b817-cc63ab3d6297</webElementGuid>
+      <webElementGuid>d61bef24-f095-48df-b2b8-2be17613dd15</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +44,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>4bd84f51-5d25-4259-ae3b-3225cd83f8af</webElementGuid>
+      <webElementGuid>61ef1ca4-e8dc-4515-89fc-9c28fdba9e29</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +52,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]/div[@class=&quot;orangehrm-background-container&quot;]/div[@class=&quot;oxd-table-filter&quot;]/div[@class=&quot;oxd-table-filter-header&quot;]/div[@class=&quot;oxd-table-filter-header-options&quot;]/div[@class=&quot;--toggle&quot;]/button[@class=&quot;oxd-icon-button&quot;]</value>
-      <webElementGuid>63c4b4a8-b441-4f58-8236-c0567b1092f3</webElementGuid>
+      <webElementGuid>a84a42b0-ded6-4145-af7f-e8687f93f629</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +60,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[3]</value>
-      <webElementGuid>a9f539e1-1819-4218-87f2-094db37a8b1c</webElementGuid>
+      <webElementGuid>de028062-a0eb-48ae-93d1-27eafce5c175</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +68,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div[2]/div[2]/div/div/div/div[2]/div[3]/button</value>
-      <webElementGuid>f0cc5176-5d93-4822-ad03-f0106f3d7263</webElementGuid>
+      <webElementGuid>3c97c1ca-fbf9-472e-ae4c-4c9db97a4098</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +76,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='More'])[1]/following::button[2]</value>
-      <webElementGuid>b2c086cd-a42c-4a12-a869-292b44aa9206</webElementGuid>
+      <webElementGuid>8da742f2-1c97-4540-a603-975b404ce6c2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +84,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Username'])[1]/preceding::button[1]</value>
-      <webElementGuid>2d020bcf-8e7a-4c00-9c36-93677f5612c1</webElementGuid>
+      <webElementGuid>1d424463-4da9-486d-bf65-52c515878600</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +92,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='User Role'])[1]/preceding::button[1]</value>
-      <webElementGuid>5023e7e3-5ae7-4e32-8bf5-eca970f18f06</webElementGuid>
+      <webElementGuid>5c9e5f1b-a1a4-4f25-b1a8-24448ed605cb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +100,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/button</value>
-      <webElementGuid>d596b35b-df8a-403a-95a1-21d66711f68e</webElementGuid>
+      <webElementGuid>2cf6b5a8-14d4-41d1-bdc2-528e2e35b0fa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,6 +108,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button']</value>
-      <webElementGuid>dc738560-e73d-481d-b6d3-62cf12211fda</webElementGuid>
+      <webElementGuid>94077132-35eb-4940-93f9-48a7b256499d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

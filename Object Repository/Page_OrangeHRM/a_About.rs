@@ -15,6 +15,12 @@
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=menuitem[name=&quot;About&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -23,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>315ebf19-5388-42c4-ae03-4573fe8d04ed</webElementGuid>
+      <webElementGuid>df009fea-632c-4221-9d80-46727b35dcdd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>ae591ae5-a680-4f86-b60c-a9bd2465d75f</webElementGuid>
+      <webElementGuid>5830d98d-f58a-4f97-ac70-f8fde4f1dea4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +45,7 @@
       <name>role</name>
       <type>Main</type>
       <value>menuitem</value>
-      <webElementGuid>91ac6a17-235c-4c2f-80c7-4778fcfd836e</webElementGuid>
+      <webElementGuid>5741415f-b1af-416a-b3ab-9c688ba3c732</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>oxd-userdropdown-link</value>
-      <webElementGuid>46f3ef9f-03c6-4a50-a70d-e89f31b480a0</webElementGuid>
+      <webElementGuid>3371b1e1-6279-48f9-9c12-1ed14c8ee124</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,7 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>About</value>
-      <webElementGuid>a11054d0-27d9-4189-86bf-3146a8fbbbbc</webElementGuid>
+      <webElementGuid>257d979c-7fc4-4931-a91b-48dafd7b3fde</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-navigation&quot;]/header[@class=&quot;oxd-topbar&quot;]/div[@class=&quot;oxd-topbar-header&quot;]/div[@class=&quot;oxd-topbar-header-userarea&quot;]/ul[1]/li[@class=&quot;--active oxd-userdropdown&quot;]/ul[@class=&quot;oxd-dropdown-menu&quot;]/li[1]/a[@class=&quot;oxd-userdropdown-link&quot;]</value>
-      <webElementGuid>87461db4-f9f8-45f8-bef7-e2a18bda466c</webElementGuid>
+      <webElementGuid>9e757e94-1146-4990-9dac-3b994619a622</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,7 +77,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div/header/div/div[2]/ul/li/ul/li/a</value>
-      <webElementGuid>2f0e3cce-ede6-446c-82e8-d8bfdc3ca325</webElementGuid>
+      <webElementGuid>2f4b3a88-9c57-45b5-b9b1-c482ce9f436c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +85,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'About')]</value>
-      <webElementGuid>4afc293f-7740-4cb2-9898-30c0ab332d26</webElementGuid>
+      <webElementGuid>19a154ef-240d-4067-9b94-a4966bedb879</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Support'])[1]/preceding::a[1]</value>
-      <webElementGuid>539b3991-160f-4c65-a4f3-af866b911f35</webElementGuid>
+      <webElementGuid>90a206ba-a2ca-4ddc-9d5b-69ea50d4e9a2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Change Password'])[1]/preceding::a[2]</value>
-      <webElementGuid>9d203cb3-faf7-4628-9cea-ec33055bda9d</webElementGuid>
+      <webElementGuid>636944d2-32ec-41cf-8f69-8c2b9879b1e0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='About']/parent::*</value>
-      <webElementGuid>775fafe6-da36-4eaf-a11b-009086871efe</webElementGuid>
+      <webElementGuid>7b80e165-d2b4-428a-8c8a-11a84535273c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +117,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '#')]</value>
-      <webElementGuid>ba6dad76-fd0a-46cd-a1ca-6d9a082ff990</webElementGuid>
+      <webElementGuid>f828c9b4-69eb-4e7d-bb2a-7cab7f223218</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +125,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li/ul/li/a</value>
-      <webElementGuid>bb2089c3-e59d-4ce2-b623-1f6390cede03</webElementGuid>
+      <webElementGuid>6394d7de-3d0c-498f-a893-bb33843f6ab4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,6 +133,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '#' and (text() = 'About' or . = 'About')]</value>
-      <webElementGuid>b0d202f4-721f-4a13-987b-f9e231772aea</webElementGuid>
+      <webElementGuid>256ebc42-8dab-4847-9e88-9409c10688c1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

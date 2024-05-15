@@ -15,6 +15,11 @@
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+      </entry>
+   </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -23,7 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>e9d3a74e-aec8-4100-bc0d-b1815c8d1ece</webElementGuid>
+      <webElementGuid>64dbed93-5f36-4291-85a6-92c4e1b2b3eb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +36,7 @@
       <name>class</name>
       <type>Main</type>
       <value>orangehrm-horizontal-padding orangehrm-vertical-padding</value>
-      <webElementGuid>b841484b-fe00-4c3e-b258-9a80b07a207b</webElementGuid>
+      <webElementGuid>970d1863-cf25-4a72-9ccc-f8f84159ebbb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +44,7 @@
       <name>text</name>
       <type>Main</type>
       <value>(1) Record Found</value>
-      <webElementGuid>29db3e82-d2ad-42d5-9198-21e19667a95f</webElementGuid>
+      <webElementGuid>ddc47713-09e1-4369-be12-bcb2db44457a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +52,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]/div[@class=&quot;orangehrm-background-container&quot;]/div[@class=&quot;orangehrm-paper-container&quot;]/div[2]/div[@class=&quot;orangehrm-horizontal-padding orangehrm-vertical-padding&quot;]</value>
-      <webElementGuid>cdad22c4-838e-4280-9b34-e58c0824e448</webElementGuid>
+      <webElementGuid>76487b9e-6d8d-46df-9345-d22e9e6fc4ed</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +60,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div[2]/div[2]/div/div[2]/div[2]/div</value>
-      <webElementGuid>cb425ed6-6b44-4f6f-ac3b-3d766d35b948</webElementGuid>
+      <webElementGuid>c50c022a-f0ef-4110-819f-f36406ffbe2b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +68,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Employee Name'])[2]/preceding::div[1]</value>
-      <webElementGuid>8d13fe37-56cb-4bfc-baf3-cf47ac9cbc8c</webElementGuid>
+      <webElementGuid>0adb78e9-debd-40c6-8aa6-a3b8522766ef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +76,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div[2]/div[2]/div</value>
-      <webElementGuid>b23e404b-5e9f-42f9-bb4b-2fbd40406af7</webElementGuid>
+      <webElementGuid>e6f21170-9bec-47fa-8f9e-2a6b5235fb04</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,6 +84,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = '(1) Record Found' or . = '(1) Record Found')]</value>
-      <webElementGuid>d1f5f3ba-3eff-4da1-bf29-6be854f27923</webElementGuid>
+      <webElementGuid>c115aac1-b1d9-4bdd-a963-68a5de6c8fa2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
